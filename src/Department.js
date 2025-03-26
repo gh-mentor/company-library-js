@@ -1,18 +1,3 @@
-/*
-Create a class Department that has the following properties:
-•	name - string
-•	id - string
-•	employees - array of Employee objects
-The class should have the following methods:
-•	getId() - a method that returns the id of the department
-•	getName() - a method that returns the name of the department
-•	addEmployee(employee) - a method that adds an Employee object to the employees array
-•	removeEmployee(employee) - a method that removes an Employee object from the employees array
-•	getDetails() - a method that returns a string, containing information about the department and its employees
-•	getEmployees() - a method that returns an array of all employees in the department
-Requirements:
-•	The Department class should be exported as a module
-*/
 
 class Department {
     constructor(id, name) {
