@@ -14,10 +14,21 @@ class Department {
         return this.name;
     }
 
+    /*
+    TODO:
+    - add null or undefined check for employee
+    - Add error handling for employee with id = 0
+    - Add error handling for duplicate employee
+    */
     addEmployee(employee) {
         this.employees.push(employee);
     }
 
+    /*
+    TODO:
+    - Add error handling for employee with id = 0
+    - Add error handling for duplicate employee
+    */
     removeEmployee(employee) {
         this.employees = this.employees.filter(e => e.getId() !== employee.getId());
     }
